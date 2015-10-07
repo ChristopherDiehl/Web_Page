@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Christopher Diehl Portfolio">
+    <meta name="author" content="Christopher Diehl">
+    <!--- Why are you looking down here? -->
+    <title>Christopher Diehl Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <!-- CSS for Mobile -->
+    <link rel="stylesheet" media="(max-width: 800px)" href="css/mobile.css"/>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+
+        <ul class="sidebar-nav">
+
+            <li class="sidebar-brand">
+                <a id="menu-close" href="#" class=" btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                <a href="#top"  onclick = "$('#menu-close').click();" >Home</a>
+            </li>
+            <li>
+                <a href="#services" onclick = "$('#menu-close').click();"  >Languages</a>
+            </li>
+            <li>
+                <a href="#interests" onclick = "$('#menu-close').click();"  >Interests</a>
+            </li>
+            <li>
+                <a href="#projects" onclick = "$('#menu-close').click();"  >Projects</a>
+            </li>
+            <li>
+                <a href="#books" onclick = "$('#menu-close').click();"  >Books</a>
+            </li>
+            <li>
+                <a href="#about" onclick = "$('#menu-close').click();"  >About</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = "$('#menu-close').click();"  >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Christopher Diehl</h1>
+            <h2>Software Developer &amp; Student</h2>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section  class="about">
+        <div class="container">
+            <div class="row quote">
+                <div class="col-lg-12 text-center">
+                    <h2>Bill Gates</h2>
+                    <p class="lead"><q>Software is a great combination between artistry and engineering.</q></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2 class ="small-line">Favorite Languages</h2>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-key fa-stack-1x text-primary fa-primary-color"></i>
+                                </span>
+                                <h4 class="bold">
+                                    Java
+                                </h4>
+                                <p>Encryption, Servlet Creation <br> Data Manipulation, Database Management. Some <br>projects available on Github</p>
+                                <a href="https://github.com/ChristopherDiehl/CS445" class="btn btn-light">View Github</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-cloud fa-stack-1x text-primary fa-primary-color"></i>
+                                </span>
+                                <h4 class="bold">
+                                    HTML
+                                </h4>
+                                <p>Knowledge of Website Development..</p>
+                                <a onclick="builtWebsiteAlert()" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-gear fa-stack-1x text-primary fa-primary-color"></i>
+                                </span>
+                                <h4 class="bold">
+                                    Assembly
+                                </h4>
+                                <p>Programmed Simon Says game, calculator, and more in Mips <br> Mips CPU design in Logisim</p>
+                                <a class="btn btn-light" href="https://github.com/ChristopherDiehl/CS447">View Github</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-shield fa-stack-1x text-primary fa-primary-color"></i>
+                                </span>
+                                <h4 class="bold">
+                                    Willingness To Learn
+                                </h4>
+                                <p>Always excited to learn and am currently delving into C and Python<br>Learning more everyday thanks to <a class="link-wb" href="dullestech.com">DullesTech</a></p>
+                                <a href="#books" class="btn btn-light">View Learning Materials</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 id="interests" class ="small-line">Interests</h2>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item" style ="vertical-align: middle">
+                                <img alt="Racecar VROOM VROOM" class="img-portfolio img-responsive img-rounded" id="car-picture" src="http://orig12.deviantart.net/e419/f/2009/101/9/6/honda_s2000_wallpaper_by_speedx07.jpg" >
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <img alt="Blizzard Gaming, Yes I'm a nerd" class="img-portfolio img-responsive img-rounded picture" src="http://www.blogcdn.com/massively.joystiq.com/media/2012/02/blizz-1330538518.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class ="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item"> 
+                                <img alt="Linux Penquin, so cute" class="img-portfolio img-responsive img-rounded picture" src="https://sitespex.com/wp-content/uploads/2015/05/ubuntu.jpeg">   
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <img  alt="Snowboarding Cat. Impressive." class="img-portfolio img-responsive img-rounded picture" src="http://people.ucsc.edu/~jlolonis/snow_cat.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Project Page -->
+    <aside class="call-to-action bg-secondary">
+        <div class="container" id ="projects">
+            <div class="row information">
+                <div class="col-lg-12 text-center">
+                    <h1 class="small-line">Projects</h1>
+                    <h4 >My goal is to implement AES in Java, Python, and C. <br />Intention to start Android Game Developement Company<br />Interested in using Django for back-end development <br /> Delving into the complexities of C for future software developement<br /> Currently learning more about Stack Overflow from <a class="information-a book-link" href="http://www.amazon.com/The-Shellcoders-Handbook-Discovering-Exploiting/dp/047008023X"> The Shellcoders Handbook</a></h4>
+                </div>
+            </div>
+        </div>
+    </aside>
+    
+    <!-- Books -->
+    <section id="Book-Section" class="portfolio">
+        <div class="container">
+            <div class="row" id="books">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class ="small-line">Current Books</h2>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="portfolio-item" style ="vertical-align: middle">
+                                <a class="information-a book-link" target="_blank" href="http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?">
+                                    <h3>Pragmatic Programmer</h3>
+                                    <img alt="Pragmatic Programmer" class="img-portfolio img-responsive img-rounded book-pictures"  src="http://ecx.images-amazon.com/images/I/41BKx1AxQWL._SX258_BO1,204,203,200_.jpg" >
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="portfolio-item">
+                                <a class="information-a book-link" target="_blank" href="http://www.amazon.com/The-Shellcoders-Handbook-Discovering-Exploiting/dp/047008023X" >
+                                    <h3>The Shellcoders Handbook</h3>
+                                    <img alt="The Shellcoders Handbook" class="img-portfolio img-responsive img-rounded book-pictures" src="http://ecx.images-amazon.com/images/I/51Gq-XXFYpL._SX395_BO1,204,203,200_.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="information-a book-link" target="_blank" href="http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_1?">
+                                <h3>HTML & CSS </h3>
+                                <div class="portfolio-item"> 
+                                    <img alt="HTML & CSS" height= "378" class="img-portfolio img-responsive img-rounded" id="html" src="http://ecx.images-amazon.com/images/I/41K27gRbYmL._SX258_BO1,204,203,200_.jpg">   
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="information-a book-link" target="_blank" href="http://www.amazon.com/Cryptography-Engineering-Principles-Practical-Applications/dp/0470474246/ref=sr_1_1?s=books">
+                                <h3>Cryptography Engineering</h3>
+                                <div class="portfolio-item">
+                                    <img  alt="Snowboarding Cat. Impressive." class="img-portfolio img-responsive img-rounded book-pictures" id="cat-picture" src="http://ecx.images-amazon.com/images/I/51SEhLArm%2BL._SX258_BO1,204,203,200_.jpg">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row information">
+                <div class="col-lg-12 text-center">
+                    <h1 class="small-line">About</h1>
+                    <h4 id ="about">Christopher is a rising Sophomore studying Computer Science at <br>Rutgers- New Brunswick with the intent of fulfilling a concentration in Computer Security. <br>He is employed by Dulles Technology Corporation as a Software Developer</h4>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h4>Christopher Diehl</h4>
+                    <p id = "number">570 - 412 - 2638</p>
+                    <p id = "contact">Flemington<br>New Jersey</p>
+                    <ul class="list-unstyled small-line">
+
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a id="email-address" href="mailto:diehl.chris@rocketmail.com">diehl.chris@rocketmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a class="footer-link" href="https://www.linkedin.com/profile/view?id=338507614" >
+                                <span class="fa-stack fa-2x fa-hover">
+                                  <i class="fa fa-circle fa-stack-2x "></i>
+                                  <i class="fa fa-circle-thin fa-stack-2x fa-primary-color"></i>
+                                  <i class="fa fa-linkedin fa-fw fa-stack-1x fa-primary-color"></i>
+                              </span>
+                          </a>
+                      </li>
+                      <li>
+                        <a class="footer-link" href="https://github.com/ChristopherDiehl" >
+                            <span class="fa-stack fa-2x fa-hover">
+                              <i class="fa fa-circle fa-stack-2x "></i>
+                              <i class="fa fa-circle-thin fa-stack-2x fa-primary-color"></i>
+                              <i class="fa fa-github fa-fw fa-stack-1x fa-primary-color"></i>
+                          </span>
+                      </a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="http://stackoverflow.com/users/4324721/turtle" >
+                        <span class="fa-stack fa-2x fa-hover">
+                          <i class="fa fa-circle fa-stack-2x "></i>
+                          <i class="fa fa-circle-thin fa-stack-2x fa-primary-color"></i>
+                          <i class="fa fa-stack-overflow fa-fw fa-stack-1x fa-primary-color"></i>
+                      </span>
+                  </a>
+              </li>
+          </ul>
+
+          <p class="text-muted">Copyright &copy; Christopher S. Diehl 2015</p>
+      </div>
+  </div>
+</div>
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script>
+
+    function builtWebsiteAlert(){
+        alert("I built this website...");
+    }
+
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+<!-- Makes Interest pictures same hight-->
+<script>
+    $(window).load(function() {
+        $(".book-pictures").height($("#html").height()); 
+        $(".book-pictures").width($("#html").width()); 
+        $(".picture").height($("#car-picture").height());
+
+        //$("#menu-bar").css("padding-top", BannerpadSpace);
+    });
+    $(window).resize(function(){
+        $(".book-pictures").height($("#html").height()); 
+        $(".book-pictures").width($("#html").width()); 
+        $(".picture").height($("#car-picture").height());
+
+    });
+</script>
+</body>
+
+</html>

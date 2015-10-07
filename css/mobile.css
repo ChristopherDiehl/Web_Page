@@ -1,0 +1,302 @@
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+
+}
+.link-wb{
+    color:white;
+    font-style: italic;
+    border-bottom-style:solid;
+    border-bottom-color:white;
+    border-bottom-width: thin;
+    font-size: 1.5em;
+}
+.link-wb:hover{
+    color:#404040;
+    text-decoration: none;
+    border-bottom-color: #404040;   
+}
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3.3em;
+    font-weight: 500;
+    vertical-align: middle;
+    padding-top: 2%;
+}
+
+.book-link{
+    color:black;
+}
+.book-link:hover{
+    color:black;
+}
+
+/* Custom Button Styles */
+.book-color {
+    color: white;
+}
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+
+.small-line:after{
+  display: block;
+  content: '';
+  border-bottom: 1px solid;
+  width: 5em;
+  margin: 1em auto;
+  max-width: 100px;
+}
+
+/* Side Menu */
+.bold{
+    font-weight: bold;
+}
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 50px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(http://www.jpdirollphotography.com/Galleries/Pittsburgh/Skyline/i-t2BmHTp/1/XL/Black%20and%20Gold%20Fog%20Pittsburgh%20Clemente%20Bridge-XL.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #404040   ;
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 110%;
+    vertical-align: text-top;
+
+
+}
+
+.top{
+    font-size: 150%;
+}
+h3 {
+  overflow: hidden;
+  height: 1.5em;
+  line-height: 1.5em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* About */
+.bg-primary{
+    background-color: rgba(255, 153, 0, .9);
+
+}
+.bg-secondary{
+    background-color: rgba(64, 64, 64, .8);
+}
+
+
+.about {
+    padding: 50px 0;
+}
+
+.information{
+    color: white;
+}
+.information a{
+    color: white;
+    font-style: italic;
+
+}
+.fa-hover:hover .fa-circle-thin{
+    color: rgb(255, 153, 0);
+}
+.fa-hover:hover .fa-github{
+    color: rgb(255, 153, 0);
+}
+.fa-hover:hover .fa-stack-overflow{
+    color: rgb(255, 153, 0);
+}
+.fa-hover:hover .fa-linkedin{
+    color: rgb(255, 153, 0);
+}
+
+.fa-primary-color{
+    color: #404040;
+}
+
+
+
+.fa-hover .fa-circle{
+    opacity:0.0;
+    color: #404040;
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+    
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+
+
+footer {
+    padding: 100px 0;
+    font-size: 100%;
+    text-align: center;
+
+}
