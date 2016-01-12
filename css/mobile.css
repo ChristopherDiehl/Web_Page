@@ -188,11 +188,10 @@ body {
     background-size: cover;
     -o-background-size: cover;
     color: #404040   ;
-    font-family: 'Tangerine', serif;
-    text-shadow: 4px 4px 4px #aaa;
     font-size: 110%;
     vertical-align: text-top;
-
+    font-family: 'Slabo 24px', serif;
+    text-shadow: 4px 4px 4px #aaa;
 
 }
 
